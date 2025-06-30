@@ -1,0 +1,68 @@
+name: open_street_map
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.12.2
+  geolocator: ^14.0.1
+  custom_info_window: ^1.0.1
+  image_picker: ^1.1.2
+  flutter_dotenv: ^5.2.1 
+  connectivity_plus: ^6.1.4
+  # flutter_localization: ^0.3.2
+  easy_localization: ^3.0.1 
+  intl: ^0.19.0
+
+  latlong2: ^0.9.1
+  flutter_map: ^8.1.1
+  flutter_map_location_marker: ^10.1.0
+  location: ^8.0.0
+  http: ^1.4.0
+  flutter_polyline_points: ^2.1.0
+  flutter_typeahead: ^5.0.1
+  shared_preferences: ^2.5.3
+  provider: ^6.1.5
+  flutter_secure_storage: ^9.2.4
+  flutter_map_tile_caching: ^10.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.6 # optional for mocking
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lang/en.json
+    - assets/lang/sq.json
+    - assets/lang/mk.json
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+# ❌ REMOVE this section — it's used for Flutter’s native .arb localization (not needed with easy_localization)
+# localizations:
+#   arb-dir: lib/l10n
+#   template-arb-file: app_en.arb
+#   output-localization-file: app_localizations.dart

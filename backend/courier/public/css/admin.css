@@ -1,0 +1,51 @@
+body {
+    /* padding-top removed; navbar is fixed with padding-top on main */
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #343a40;
+    min-height: 100vh;
+    color: white;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    text-decoration: none;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0d6efd;
+}
+
+.avatar-sm {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Responsive sidebar collapse on small screens */
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+    position: fixed !important;
+    width: 240px;
+    height: 100vh;
+    z-index: 1050;
+  }
+
+  .sidebar.show {
+    transform: translateX(0);
+  }
+
+  main {
+    margin-left: 0 !important;
+    padding-top: 56px;
+  }
+}

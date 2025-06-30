@@ -1,0 +1,150 @@
+{
+  "app_title": "Delivero",
+  "main": {
+    "home": "Ballina",
+    "profile": "Profili",
+    "saved": "Të ruajtura",
+    "history": "Historia",
+    "settings": "Cilësimet",
+    "about": "Rreth nesh",
+    "offline": "Harta offline",
+    "title": "Delivero",
+    "offline_viewer": "Shikues Offline",
+    "assigned_routes": "Rrugët e caktuara"
+  },
+  "about": {
+    "title": "Rreth nesh",
+    "header": "Mirë se vini në Courier Assistant",
+    "description": "Courier Assistant është krijuar për të ndihmuar shpërndarësit lokalë me navigim intuitiv, menaxhim efikas të rrugëve dhe vendimmarrje më të zgjuar.",
+    "features_title": "Çfarë mund të bëni:",
+    "feature1": "🔍 Kërkoni lehtë vendndodhje me OpenStreetMap",
+    "feature2": "🗺️ Shikoni vendndodhjen në kohë reale dhe rrugët e optimizuara",
+    "feature3": "📌 Ruani destinacionet e preferuara ose të zakonshme",
+    "feature4": "📖 Ndiqni automatikisht historikun e dërgesave me kohë",
+    "feature5": "⚙️ Personalizoni përvojën me gjuhë dhe tema",
+    "extra_info": "Qoftë shpërndarës i pavarur apo pjesë e një flote, kjo aplikacion thjeshton detyrat e përditshme.",
+    "how_to_use_button": "Si të përdoret"
+  },
+  "how": {
+    "title": "Si të përdoret",
+    "header": "Udhëzues i shpejtë:",
+    "step1": "1. Shtypni shiritin e kërkimit për të gjetur destinacionin.",
+    "step2": "2. Zgjidhni një rezultat nga lista e sugjerimeve.",
+    "step3": "3. Konfirmoni ruajtjen e destinacionit (opsionale).",
+    "step4": "4. Shtypni butonin e navigimit për të filluar ndjekjen.",
+    "step5": "5. Rruga optimale do të shfaqet me distancë dhe rrugë.",
+    "step6": "6. Kur jeni afër destinacionit, do të merrni një njoftim.",
+    "step7": "7. Shikoni destinacionet e ruajtura dhe historinë në meny.",
+    "tips_title": "Këshillë:",
+    "tips": "Sigurohuni që GPS të jetë i aktivizuar dhe të jepni lejet e nevojshme. Për zona pa internet, ruani paraprakisht pllakat e hartës."
+  },
+  "login": {
+    "welcome": "Mirë se u riktheve!",
+    "instruction": "Ju lutemi vendosni kredencialet tuaja për të hyrë.",
+    "email": "Email",
+    "password": "Fjalëkalimi",
+    "button": "Hyr",
+    "no_account": "Nuk keni llogari? ",
+    "signup": "Regjistrohu",
+    "error": "Hyrja dështoi. Provojeni përsëri."
+  },
+  "profile": {
+    "title": "Profili",
+    "edit": "Ndrysho Profilin",
+    "logout": "Dil",
+    "logged_out": "Jeni çkyçur me sukses",
+    "phone": "Telefoni",
+    "vehicle": "Automjeti",
+    "online_status": "Statusi online",
+    "now_online": "Tani jeni online",
+    "now_offline": "Tani jeni offline",
+    "status_update_failed": "Dështoi përditësimi i statusit"
+  },
+  "settings": {
+    "title": "Cilësimet e profilit",
+    "change_password": "Ndrysho fjalëkalimin",
+    "new_password": "Fjalëkalim i ri",
+    "confirm_password": "Konfirmo fjalëkalimin",
+    "save": "Ruaj ndryshimet",
+    "updated_success": "Profili u përditësua me sukses.",
+    "failed": "Përditësimi dështoi: {}",
+    "dark_mode": "Modaliteti i errët",
+    "language": "Gjuha",
+    "more_coming": "Më shumë cilësime së shpejti..."
+  },
+  "register": {
+    "title": "Krijo llogari",
+    "subtitle": "Regjistrohu për të përdorur aplikacionin",
+    "username": "Emri i përdoruesit",
+    "email": "Email",
+    "password": "Fjalëkalimi",
+    "confirm_password": "Konfirmo fjalëkalimin",
+    "button": "Regjistrohu",
+    "have_account": "Tashmë keni llogari?",
+    "login": "Hyr",
+    "failed": "Regjistrimi dështoi. Provojeni përsëri.",
+    "passwords_no_match": "Fjalëkalimet nuk përputhen"
+  },
+  "route_history": {
+    "title": "Historia e rrugëve",
+    "empty": "Nuk keni histori të ruajtur të rrugëve.",
+    "error": "Dështoi ngarkimi i historikut të rrugëve."
+  },
+  "delete_route": {
+    "title": "Fshi rrugën?",
+    "confirmation": "Jeni i sigurt që dëshironi ta fshini këtë rrugë?",
+    "cancel": "Anulo",
+    "confirm": "Fshi",
+    "failed": "Dështoi fshirja e rrugës."
+  },
+  "saved": {
+    "title": "Destinacionet e ruajtura",
+    "empty": "Nuk keni destinacione të ruajtura.",
+    "delete": "Fshi destinacionin"
+  },
+  "drawer": {
+    "home": "Ballina",
+    "profile": "Profili",
+    "saved": "Të ruajtura",
+    "history": "Historia",
+    "settings": "Cilësimet",
+    "offline": "Harta offline",
+    "about": "Rreth nesh",
+    "logout": "Dil",
+    "assigned_routes": "Rrugët e caktuara"
+  },
+  "assigned": {
+    "title": "Rrugët e caktuara",
+    "none": "Nuk ka rrugë të caktuara.",
+    "status": "Statusi",
+    "due": "Afati",
+    "error": "Gabim: {}"
+  },
+  "route_preview": {
+    "title": "Paraqitje e rrugës",
+    "completed": "Përfunduar: {}"
+  },
+  "multi_stop": {
+    "title": "Rrugë me shumë ndalesa",
+    "add_more": "Shto të paktën 2 ndalesa për të optimizuar.",
+    "clear": "Pastro ndalesat",
+    "optimize": "Optimizoni rrugën",
+    "selected_stops": "Ndalesat e zgjedhura:",
+    "auto_saved": "Rruga u ruajt automatikisht.",
+    "error": "Gabim: {}"
+  },
+  "route_fetch_failed": "Dështoi të merret rruga. Provojeni përsëri.",
+  "route_fetch_error": "Ndodhi një gabim gjatë marrjes së rrugës.",
+  "current_location_unavailable": "Vendndodhja aktuale nuk është në dispozicion.",
+  "arrival_message": "✅ Keni arritur në destinacion!",
+  "save_destination_title": "Ruaj destinacionin",
+  "save_destination_message": "Dëshironi ta ruani këtë destinacion?\n\n{}",
+  "no": "Jo",
+  "yes": "Po",
+  "auth_token_missing": "Tokeni i autentikimit mungon.",
+  "destination_saved": "Destinacioni u ruajt me sukses.",
+  "destination_save_failed": "Dështoi ruajtja e destinacionit. Kodi: {}",
+  "destination_save_error": "Gabim gjatë ruajtjes: {}",
+  "enter_location_hint": "Shkruani një vendndodhje",
+  "select_destination_first": "Ju lutemi zgjidhni një destinacion më parë."
+}
